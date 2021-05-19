@@ -17,6 +17,7 @@ R__LOAD_LIBRARY(libg4detectors.so)
 // This creates the Enable Flag to be used in the main steering macro
 namespace Enable
 {
+  bool ZDC = false;
   bool HFARFWD_MAGNETS_IP6 = false;
   bool HFARFWD_MAGNETS_IP8 = false;
   bool HFARFWD_VIRTUAL_DETECTORS_IP8 = false;
